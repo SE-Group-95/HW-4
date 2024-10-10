@@ -1,0 +1,2 @@
+#!/bin/bash
+awk -F, '{gsub(/[\r\n]+/, "", $NF); if ($3 == 2 && $NF == "S") {gsub(/female/, "F", $6); gsub(/male/, "M", $6);  if ($7 != "" && $7 != "NA") {sum += $7; count++} print > "filtered_titanic.csv" }} END {if (count > 0) print "Average Age:", sum/count; else print "No valid records found"}' titanic.csv
