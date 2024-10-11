@@ -24,7 +24,7 @@
 - **Script**: [`task2.sh`](/task2.sh)
 - **Description**: Lists files containing the word "sample" and at least 3 occurrences of "CSC510", sorts them, and renames them.
 - **Output**:
-![alt text](output_images/IMG_0311.png)
+![alt text](output_images/image.png)
 
 ### Task 3: Analyze Titanic Dataset
 - **Script**: [`task3.sh`](/task3.sh)
